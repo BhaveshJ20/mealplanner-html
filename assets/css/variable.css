@@ -1,0 +1,19 @@
+:root,
+[data-bs-theme=light] {
+    --bs-red: #DE6341;
+    --bs-yellow: #F5BE4F;
+    --bs-green: #AFB884;
+    --bs-white: #FFFFFF;
+    --bs-black: #000000;
+    --bs-gray: #D9D9D9;
+    --bs-gray-dark: #808080;
+    --bs-light: #E5E1DA;
+    --bs-extralight: #FAFAF9;
+    --bs-border-width: 1px;
+    --bs-border-radius: 10px;
+    --bs-border-radius-lg: 24px;
+    --bs-form-invalid-color: #DE6341;
+    --bs-form-invalid-border-color: #DE6341;
+    --bs-box-shadow-lg: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    --bs-backdrop-bg: #808080;
+}

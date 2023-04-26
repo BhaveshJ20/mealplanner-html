@@ -1,0 +1,54 @@
+.base-timer {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+  }
+  
+  .base-timer__svg {
+    transform: scaleX(1);
+  }
+  
+  .base-timer__circle {
+    fill: none;
+    stroke: none;
+  }
+  
+  .base-timer__path-elapsed {
+    stroke-width: 8px;
+    stroke: #E5E1DA;
+  }
+  
+  .base-timer__path-remaining {
+    stroke-width: 8px;
+    stroke-linecap: round;
+    transform: rotate(90deg);
+    transform-origin: center;
+    transition: 1s linear all;
+    fill-rule: nonzero;
+    stroke: currentColor;
+  }
+  
+  .base-timer__path-remaining.green {
+    color: #AFB884;
+  }
+  
+  .base-timer__path-remaining.orange {
+    color: #AFB884;
+  }
+  
+  .base-timer__path-remaining.red {
+    color: #AFB884;
+  }
+  
+  .base-timer__label {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Asap', sans-serif;
+    font-size: 15px;
+  }
